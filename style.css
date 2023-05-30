@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>أيمن بركاوي - صفحة الاستثمار</title>
+  <style>
+    /* Reset CSS */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333333;
+      line-height: 1.6;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #232f3e;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Main Content Styles */
+    h1 {
+      margin-top: 50px;
+      font-size: 28px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .investment-box {
+      border: 1px solid #dddddd;
+      padding: 20px;
+      margin: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .investment-box h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .investment-box p {
+      font-size: 16px;
+      color: #666666;
+    }
+
+    .investment-box button {
+      background-color: #4caf50;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .investment-box button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>أيمن بركاوي - صفحة الاستثمار</h1>
+  </header>
+
+  <h1>فرص الاستثمار</h1>
+  <div class="investment-box">
+    <h3>مشروع 1</h3>
+    <p>وصف لمشروع 1</p>
+    <button onclick="invest('مشروع 1')">استثمر الآن</button>
+  </div>
+
+  <div class="investment-box">
+    <h3>مشروع 2</h3>
+    <p>وصف لمشروع 2</p>
+    <button onclick="invest('مشروع 2')">استثمر الآن</button>
+  </div>
+
+  <script>
+    function invest(projectName) {
+      alert('تم استثمار في ' + projectName);
+    }
+  </script>
+</body>
+</html>
+
